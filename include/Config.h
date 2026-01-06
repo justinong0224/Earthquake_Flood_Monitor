@@ -3,16 +3,16 @@
 
 #include <Arduino.h>
 
-#define BLYNK_TEMPLATE_ID "TMPL6EBt6e2g8"
-#define BLYNK_TEMPLATE_NAME "Earthquake Monitor"
-#define BLYNK_AUTH_TOKEN "4GLXLNAX86O8OWCJuJe0CbfQIfaWN223"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 #define BLYNK_PRINT Serial
 
-const char ssid[] = "umobile@wifi";
-const char pass[] = "Happybanana@";
+const char ssid[] = "";
+const char pass[] = "";
 
-const String BOT_TOKEN = "8552373725:AAHiNRd4VF6wQKqz0b-RVo3HyHd4Yhxdxio"; 
-const String CHAT_ID = "-1003133159576"; 
+const String BOT_TOKEN = ""; 
+const String CHAT_ID = ""; 
 
 const char* ap_ssid = "Earthquake_Monitor_AP"; 
 const unsigned long AP_TIMEOUT = 20000; 
